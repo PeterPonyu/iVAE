@@ -17,6 +17,11 @@ setup(
         'joblib>=1.2.0',
         'tqdm>=4.64.1',
     ],
+    entry_points={
+        'console_scripts': [
+            'iVAE=iVAE.cli:main',
+        ]
+    },
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Development Status :: 3 - Alpha',
