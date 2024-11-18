@@ -67,11 +67,8 @@ print("latent shape:", latent.shape)
 ```
 
 ## License
-<p>
-    <a href="https://choosealicense.com/licenses/mit/" target="_blank">
-        <img alt="license" src="https://img.shields.io/github/license/PeterPonyu/iVAE?style=flat-square&color=brightgreen"/>
-    </a>
-</p>
+[![PyPI]([https://img.shields.io/pypi/v/iVAE.svg?color=brightgreen&style=flat](https://img.shields.io/github/license/PeterPonyu/iVAE?style=flat-square&color=brightgreen))](https://choosealicense.com/licenses/mit/)
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 
