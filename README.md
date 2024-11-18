@@ -5,7 +5,9 @@ iVAE is an enhanced representation learning method designed for capturing lineag
 <img src='fig.png' width='300' align='center'>
 
 ## Installation
+
 [![PyPI](https://img.shields.io/pypi/v/iVAE.svg?color=brightgreen&style=flat)](https://pypi.org/project/iVAE/)
+
 You can install the `iVAE` package using:
 
 ```bash
