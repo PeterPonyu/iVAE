@@ -9,7 +9,7 @@ iVAE is an enhanced representation learning method designed for capturing lineag
 You can install the `iVAE` package using:
 
 ```bash
-pip install iVAE.
+pip install iVAE
 ```
 
 This repository is hosted at [iVAE GitHub Repository](https://github.com/PeterPonyu/iVAE).
