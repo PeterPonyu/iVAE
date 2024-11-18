@@ -5,7 +5,7 @@ iVAE is an enhanced representation learning method designed for capturing lineag
 <img src='fig.png' width='300' align='center'>
 
 ## Installation
-
+[![PyPI](https://img.shields.io/pypi/v/iVAE.svg?color=brightgreen&style=flat)](https://pypi.org/project/iVAE/)
 You can install the `iVAE` package using:
 
 ```bash
@@ -67,13 +67,13 @@ print("latent shape:", latent.shape)
 ```
 
 ## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
 <p>
     <a href="https://choosealicense.com/licenses/mit/" target="_blank">
         <img alt="license" src="https://img.shields.io/github/license/PeterPonyu/iVAE?style=flat-square&color=brightgreen"/>
     </a>
 </p>
+This project is licensed under the MIT License. See the LICENSE file for details.
+
 
 ## Contact
 
