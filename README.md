@@ -16,8 +16,6 @@ This repository is hosted at [iVAE GitHub Repository](https://github.com/PeterPo
 
 ## Usage
 
-#### Customizing Parameters
-
 You can customize the behavior of the script by providing additional arguments:
 
 - `--epochs`: Number of training epochs (default: 1000)
