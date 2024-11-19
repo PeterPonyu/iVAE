@@ -1,0 +1,10 @@
+scanpy>=1.7.1
+myst_parser>=0.15.2
+sphinx>=3.5.2
+nbsphinx>=0.8.8
+ipython_genutils>=0.2.0
+jinja2<3.1
+sphinx-rtd-theme>=2.0.0
+torch>=1.13.1
+joblib>=1.2.0
+tqdm>=4.64.1
