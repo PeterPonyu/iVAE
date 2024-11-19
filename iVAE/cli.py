@@ -2,7 +2,7 @@
 
 import argparse
 import os
-from agent import agent
+from .agent import agent
 import torch
 from anndata import read_h5ad
 import numpy as np
