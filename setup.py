@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 setup(
     name = 'iVAE',
-    version = '0.0.2',
+    version = '0.0.3',
     description = 'Interpretable Variational Autoencoder for Single-Cell Data',
     long_description = open('README.md').read(),
     long_description_content_type='text/markdown',
@@ -25,9 +25,6 @@ setup(
         'console_scripts': [
             'iVAE=iVAE.cli:main',
         ]
-    },
-    package_data={
-        'iVAE': ['fig.png'],
     },
     classifiers=[
         'License :: OSI Approved :: MIT License',
