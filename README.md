@@ -71,7 +71,7 @@ print("latent shape:", latent.shape)
 ## API docs
 [![Documentation Status](https://readthedocs.org/projects/ivae/badge/?version=latest)](https://ivae.readthedocs.io/en/latest/?badge=latest)
 
-The documentation is available. Click the [doc](https://ivae.readthedocs.io/en/latest/?badge=latest) for details.
+The documentation is available. Click the [doc](https://ivae.readthedocs.io/en/latest/) for details.
 
 ## License
 [![PyPI](https://img.shields.io/github/license/PeterPonyu/iVAE?style=flat-square&color=brightgreen)](https://choosealicense.com/licenses/mit/)
