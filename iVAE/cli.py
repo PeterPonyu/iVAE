@@ -4,7 +4,7 @@ import argparse
 import os
 from .agent import agent
 import torch
-from anndata import read_h5ad
+import scanpy as sc
 import numpy as np
 
 def main():
@@ -27,7 +27,7 @@ def main():
     args = parser.parse_args()
 
     # Load data
-    adata = read_h5ad(args.data_path)
+    adata = sc.read_h5ad(args.data_path)
 
     # Initialize the agent object
     ag = agent(
