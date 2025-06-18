@@ -78,9 +78,12 @@ The documentation is available. Click the [doc](https://ivae.readthedocs.io/en/l
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
+## Zenodo
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15686686.svg)](https://doi.org/10.5281/zenodo.15686686)
+
 
 ## Contact
 
-For questions or issues, please contact Zeyu Fu at [fuzeyu99@126.com](mailto:fuzeyu99@126.com).
+For questions or issues, please contact Zeyu Fu at [fuzeyu99@126.com](mailto:fuzeyu99@126.com) or [fuzeyu09@gmail.com](mailto:fuzeyu09@gmail.com).
 
 ---
