@@ -79,28 +79,19 @@ The documentation is available. Click the [doc](https://ivae.readthedocs.io/en/l
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Zenodo
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15686686.svg
-        
-        
-        
-        
-        
-        )](https://doi.org/10.5281/zenodo.15686686
-        
-        
-        
-        
-        
-        )
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15686686.svg)](https://doi.org/10.5281/zenodo.15686686)
 
 ## Contact
 
 For questions or issues, please contact Zeyu Fu at [fuzeyu99@126.com](mailto:fuzeyu99@126.com) or [fuzeyu09@gmail.com](mailto:fuzeyu09@gmail.com).
 
-## References
+## Cite
 
 - Fu, Z., Chen, C., Wang, S. et al. iVAE: an interpretable representation learning framework enhances clustering performance for single-cell data. *BMC Biol* **23**, 213 (2025). https://doi.org/10.1186/s12915-025-02315-7
+        
+        
+        
+        
 
 
 
