@@ -1,6 +1,6 @@
 ## About
 
-iVAE is an enhanced representation learning method designed for capturing lineage features and gene expression patterns in single-cell transcriptomics. Compared to a standard VAE, iVAE incorporates a pivotal interpretative module that increases the correlation between latent components. This enhanced correlation helps the model learn gene expression patterns in single-cell data where correlations are present.
+iVAE is a representation learning method for single-cell transcriptomics. Compared with a standard VAE, it adds an interpretative bottleneck that encourages correlated latent structure when those correlations are present in the data.
 
 <img src='source/_static/fig.png' width='600' align='center'>
 
@@ -9,7 +9,7 @@ iVAE is an enhanced representation learning method designed for capturing lineag
 - **Interpretative Module**: A bottleneck layer that encourages learning of correlated patterns in gene expression
 - **Multiple Loss Functions**: Supports various regularization techniques (KL, DIP, TC, MMD) for improved disentanglement
 - **Single-Cell Optimized**: Uses negative binomial distribution for count data modeling
-- **Easy to Use**: Simple Python API and command-line interface
+- **Python API and CLI**: Supports both scripted and command-line workflows
 - **GPU Accelerated**: Automatic GPU detection and usage when available
 
 ## Installation
