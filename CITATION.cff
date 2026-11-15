@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article in preferred-citation."
+title: "iVAE"
+type: software
+authors:
+  - family-names: "Fu"
+    given-names: "Zeyu"
+  - family-names: "Chen"
+    given-names: "Chunlin"
+  - family-names: "Wang"
+    given-names: "Song"
+  - family-names: "Wang"
+    given-names: "Junping"
+  - family-names: "Chen"
+    given-names: "Shilei"
+repository-code: "https://github.com/PeterPonyu/iVAE"
+license: MIT
+preferred-citation:
+  type: article
+  title: "iVAE: an interpretable representation learning framework enhances clustering performance for single-cell data"
+  authors:
+    - family-names: "Fu"
+      given-names: "Zeyu"
+    - family-names: "Chen"
+      given-names: "Chunlin"
+    - family-names: "Wang"
+      given-names: "Song"
+    - family-names: "Wang"
+      given-names: "Junping"
+    - family-names: "Chen"
+      given-names: "Shilei"
+  journal: "BMC Biology"
+  volume: "23"
+  start: "213"
+  year: 2025
+  doi: "10.1186/s12915-025-02315-7"
