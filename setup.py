@@ -10,6 +10,12 @@ setup(
     long_description = open('README.md').read(),
     long_description_content_type='text/markdown',
     url = 'https://github.com/PeterPonyu/iVAE',
+    project_urls = {
+        'Documentation': 'https://ivae.readthedocs.io',
+        'Source': 'https://github.com/PeterPonyu/iVAE',
+        'Paper': 'https://doi.org/10.1186/s12915-025-02315-7',
+        'Issues': 'https://github.com/PeterPonyu/iVAE/issues',
+    },
     author = 'Zeyu Fu',
     author_email = 'fuzeyu99@126.com',
     license = 'MIT',

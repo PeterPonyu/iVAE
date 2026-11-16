@@ -47,8 +47,7 @@ Quick Start (Python API)
        i_dim=2,
        irecon=1.0,
        beta=1.0,
-       epochs=1000
-   ).fit()
+   ).fit(epochs=1000)
 
    # Extract representations
    iembed = model.get_iembed()   # Interpretative embedding (n_cells x i_dim)

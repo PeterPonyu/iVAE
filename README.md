@@ -1,14 +1,19 @@
+# iVAE: interpretable variational autoencoder for single-cell data
+
 <div align="center">
   <a href="https://peterponyu.github.io/">
     <img src="https://peterponyu.github.io/assets/badges/iVAE.svg" width="64" alt="ZF Lab · iVAE">
   </a>
 </div>
 
+[![PyPI](https://img.shields.io/pypi/v/ivae-sc.svg?color=brightgreen&style=flat)](https://pypi.org/project/ivae-sc/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15686685.svg)](https://doi.org/10.5281/zenodo.15686685)
+
 ## About
 
 iVAE is a representation learning method for single-cell transcriptomics. Compared with a standard VAE, it adds an interpretative bottleneck that encourages correlated latent structure when those correlations are present in the data.
 
-<img src='source/_static/fig.png' width='600' align='center'>
+<img src='https://raw.githubusercontent.com/PeterPonyu/iVAE/main/source/_static/fig.png' width='600' align='center'>
 
 ## Key Features
 
@@ -19,8 +24,6 @@ iVAE is a representation learning method for single-cell transcriptomics. Compar
 - **GPU Accelerated**: Automatic GPU detection and usage when available
 
 ## Installation
-
-[![PyPI](https://img.shields.io/pypi/v/ivae-sc.svg?color=brightgreen&style=flat)](https://pypi.org/project/ivae-sc/)
 
 Install the package from PyPI:
 
@@ -80,7 +83,6 @@ model = agent(
     layer='counts',       # Layer to use from AnnData
     latent_dim=10,        # Number of latent dimensions
     i_dim=2,              # Interpretative dimension
-    epochs=500
 )
 model.fit(epochs=500)
 
@@ -237,12 +239,9 @@ model.fit(epochs=1000)
 The documentation is available. Click the [doc](https://ivae.readthedocs.io/en/latest/) for details.
 
 ## License
-[![PyPI](https://img.shields.io/github/license/PeterPonyu/iVAE?style=flat-square&color=brightgreen)](https://choosealicense.com/licenses/mit/)
+[![License](https://img.shields.io/github/license/PeterPonyu/iVAE?style=flat-square&color=brightgreen)](https://choosealicense.com/licenses/mit/)
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Zenodo
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15686686.svg)](https://doi.org/10.5281/zenodo.15686686)
 
 ## Contact
 
