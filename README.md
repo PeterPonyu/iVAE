@@ -20,13 +20,15 @@ iVAE is a representation learning method for single-cell transcriptomics. Compar
 
 ## Installation
 
-[![PyPI](https://img.shields.io/pypi/v/iVAE.svg?color=brightgreen&style=flat)](https://pypi.org/project/iVAE/)
+[![PyPI](https://img.shields.io/pypi/v/ivae-sc.svg?color=brightgreen&style=flat)](https://pypi.org/project/ivae-sc/)
 
-You can install the `iVAE` package using:
+Install the package from PyPI:
 
 ```bash
-pip install iVAE
+pip install ivae-sc
 ```
+
+From version 0.0.6 the package is published on PyPI as `ivae-sc`; the import name is still `iVAE`. The earlier `iVAE` project on PyPI stays at 0.0.5 and is no longer updated.
 
 This repository is hosted at [iVAE GitHub Repository](https://github.com/PeterPonyu/iVAE).
 

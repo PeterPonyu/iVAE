@@ -19,12 +19,12 @@ Key Features
 Installation
 ------------
 
-.. image:: https://img.shields.io/pypi/v/iVAE.svg?color=brightgreen&style=flat
-   :target: https://pypi.org/project/iVAE/
+.. image:: https://img.shields.io/pypi/v/ivae-sc.svg?color=brightgreen&style=flat
+   :target: https://pypi.org/project/ivae-sc/
 
 .. code-block:: bash
 
-   pip install iVAE
+   pip install ivae-sc
 
 This repository is hosted at `iVAE GitHub Repository <https://github.com/PeterPonyu/iVAE>`_.
 
