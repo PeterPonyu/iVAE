@@ -8,6 +8,7 @@ including data loading, batching, and evaluation scoring.
 from .model import iVAE
 from .mixin import envMixin
 import numpy as np
+from scipy.sparse import issparse
 from sklearn.cluster import KMeans
 
 
@@ -171,7 +172,9 @@ class Env(iVAE, envMixin):
         latent_dim : int
             Number of clusters to create for reference labels.
         """
-        self.X = np.log1p(adata.layers[layer].A)
+        X = adata.layers[layer]
+        # SciPy 1.14 removed the .A shortcut; accept sparse and dense layers.
+        self.X = np.log1p(X.toarray() if issparse(X) else np.asarray(X))
         self.n_obs = adata.shape[0]
         self.n_var = adata.shape[1]
         self.labels = KMeans(latent_dim).fit_predict(self.X)
