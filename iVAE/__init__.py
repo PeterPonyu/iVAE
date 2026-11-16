@@ -3,4 +3,4 @@ from .cli import main
 
 __all__ = ['agent', 'main']
 
-__version__ = '0.0.6'
+__version__ = '0.0.7'

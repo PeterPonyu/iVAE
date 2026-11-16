@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 setup(
     name = 'ivae-sc',
-    version = '0.0.6',
+    version = '0.0.7',
     description = 'Interpretable Variational Autoencoder for Single-Cell Data',
     long_description = open('README.md').read(),
     long_description_content_type='text/markdown',
